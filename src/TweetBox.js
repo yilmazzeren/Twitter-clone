@@ -6,15 +6,15 @@ function TweetBox() {
     <div className="tweetBox">
       <form>
         <div className="tweetBox__input">
-          <Avatar src="https://kajabi-storefronts-production.global.ssl.fastly.net/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png" />
+          <Avatar src="https://yt3.ggpht.com/ytc/AAUvwngkfbwVHDNX92ii_Av2zuVI_dS6fCsaB4aPLxl4=s900-c-k-c0x00ffffff-no-rj" />
           <input placeholder="What's happening?" type="text" />
-          {/* <input
-            className="tweetBox__imageInput"
-            placeholder="Optional: Enter image URL"
-            type="text"
-          /> */}
         </div>
-        <Button>Tweet</Button>
+        <input
+          className="tweetBox__imageInput"
+          placeholder="Optional: Enter image URL"
+          type="text"
+        />
+        <Button className="tweetBox__tweetBotton">Tweet</Button>
       </form>
     </div>
   );
